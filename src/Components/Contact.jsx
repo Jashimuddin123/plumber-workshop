@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Contact = () => {
     return (
         <div className="flex flex-col">
@@ -50,26 +52,37 @@ const Contact = () => {
 
                 {/* Links div on the right */}
                 <div className="flex-1 w-full md:w-1/3 pl-4 mt-10">
-                    <h1 className="text-sky-400 text-2xl my-2 font-bold">NEED A PLUMBER URGENTLY?</h1>
+                    <h1 className="text-3xl font-bold text-sky-400 my-4">NEED A PLUMBER URGENTLY?</h1>
                     <img src="https://i.ibb.co/34N0q6v/links-hour-images.jpg" alt="" />
-                    <button className="btn btn-info rounded-full py-2 my-4 px-8 text-2xl text-white">CALL: 085_0026311</button>
-                    <p className="text-gray-500 text-lg my-2">
-                        Need a 24-hour plumber for help with leaks, blockages, or plumbing problems? Call 085 – 0026311 for fast help from a professional in your area!
-                    </p>
-                    <h1 className="my-2 text-sky-400 font-bold text-3xl">Work areas</h1>
-                    <div className="text-lg text-gray-500 space-y-2">
-                        <p>Plumber Alphen aan den Rijn</p>
-                        <p>Plumber Amsterdam</p>
-                        <p>Plumber Breda</p>
-                        <p>Plumber Den Bosch</p>
-                        <p>Plumber The Hague</p>
-                        <p>Plumber Dordrecht</p>
-                        <p>Plumber Hilversum</p>
-                        <p>Plumber Leiden</p>
-                        <p>Plumber Rotterdam</p>
-                        <p>Plumber Utrecht</p>
-                        <p>Plumber Zaandam</p>
-                        <p>Plumber Zoetemeer</p>
+                    <button className="btn my-6 mt-6 btn-info rounded-full py-2 px-8 text-2xl text-white">CALL: 085_0026311</button>
+                    <p className="text-gray-500 text-left text-lg my-4">Need a 24-hour plumber for help with leaks, blockages, or plumbing problems? Call 085 – 0026311 for fast help!</p>
+                    <div>
+                        <h1 className="my-2 text-sky-400 font-bold text-left text-3xl">Work areas</h1>
+                      <Link
+                       to="/alphen"><p className="text-lg text-left text-gray-500">Plumber Alphen aan den Rijn</p></Link>
+                        <div className="divider"></div>
+                        <Link to="/amsterdam"><p className="text-lg text-left text-gray-500">Plumber Amsterdam</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/breda"> <p className="text-lg text-left text-gray-500">Plumber Breda</p></Link>
+                        <div className="divider"></div>
+                        <Link to="/denBosch"><p className="text-lg text-left text-gray-500">Plumber Den Bosch</p></Link>
+                        <div className="divider"></div>
+                        <Link to="/theHague"><p className="text-lg text-left text-gray-500">Plumber The Hague</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/dordrecht"> <p className="text-lg text-left text-gray-500">Plumber Dordrecht</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/hilversum"> <p className="text-lg text-left my-2 text-gray-500">Plumber Hilversum</p></Link>
+                        <div className="divider"></div>
+                      <Link to="/leiden">  <p className="text-lg text-left text-gray-500">Plumber Leiden</p></Link>
+                        <div className="divider"></div>
+                        <Link to="/rotterdam"><p className="text-lg text-left my-2 text-gray-500">Plumber Rotterdam</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/utrecht"> <p className="text-lg text-left text-gray-500">Plumber Utrecht</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/zaandam"> <p className="text-lg text-left text-gray-500">Plumber Zaandam</p></Link>
+                        <div className="divider"></div>
+                       <Link to="/zoetemeer"> <p className="text-lg text-left text-gray-500">Plumber Zoetermeer</p></Link>
+                        <div className="divider"></div>
                     </div>
                 </div>
             </div>
