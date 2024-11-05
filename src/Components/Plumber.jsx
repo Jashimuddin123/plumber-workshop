@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Plumber = () => {
     return (
         <div className="flex flex-col">
@@ -62,29 +64,29 @@ const Plumber = () => {
                     <p className="text-gray-500 text-left text-lg my-4">Need a 24-hour plumber for help with leaks, blockages, or plumbing problems? Call 085 – 0026311 for fast help!</p>
                     <div>
                         <h1 className="my-2 text-sky-400 font-bold text-left text-3xl">Work areas</h1>
-                        <p className="text-lg text-left text-gray-500">Plumber Alphen aan den Rijn</p>
+                      <Link to="/alphen"><p className="text-lg text-left text-gray-500">Plumber Alphen aan den Rijn</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Amsterdam</p>
+                        <Link to="/amsterdam"><p className="text-lg text-left text-gray-500">Plumber Amsterdam</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Breda</p>
+                       <Link to="/breda"> <p className="text-lg text-left text-gray-500">Plumber Breda</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Den Bosch</p>
+                        <Link to="/denBosch"><p className="text-lg text-left text-gray-500">Plumber Den Bosch</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber The Hague</p>
+                        <Link to="/theHague"><p className="text-lg text-left text-gray-500">Plumber The Hague</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Dordrecht</p>
+                       <Link to="/dordrecht"> <p className="text-lg text-left text-gray-500">Plumber Dordrecht</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left my-2 text-gray-500">Plumber Hilversum</p>
+                       <Link to="/hilversum"> <p className="text-lg text-left my-2 text-gray-500">Plumber Hilversum</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Leiden</p>
+                      <Link to="/leiden">  <p className="text-lg text-left text-gray-500">Plumber Leiden</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left my-2 text-gray-500">Plumber Rotterdam</p>
+                        <Link to="/rotterdam"><p className="text-lg text-left my-2 text-gray-500">Plumber Rotterdam</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Utrecht</p>
+                       <Link to="/utrecht"> <p className="text-lg text-left text-gray-500">Plumber Utrecht</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Zaandam</p>
+                       <Link to="/zaandam"> <p className="text-lg text-left text-gray-500">Plumber Zaandam</p></Link>
                         <div className="divider"></div>
-                        <p className="text-lg text-left text-gray-500">Plumber Zoetermeer</p>
+                       <Link to="/zoetemeer"> <p className="text-lg text-left text-gray-500">Plumber Zoetermeer</p></Link>
                         <div className="divider"></div>
                     </div>
                 </div>
