@@ -9,9 +9,9 @@ const Plumber = () => {
             </div>
 
             {/* Main content section */}
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col lg:flex-row">
                 {/* Content div on the left */}
-                <div className="flex-1 md:w-2/3 pr-4 shadow-xl ml-0 md:ml-12 px-4 md:px-6">
+                <div className="flex-2 w-full lg:w-2/3 shadow-2xl ml-4 lg:ml-12 px-4 lg:px-6">
                     <h1 className="text-4xl font-bold text-left my-8">Plumber Emergency</h1>
                     <div className="border-4 border-sky-400 w-28 my-8"></div>
                     <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" className="w-full" />

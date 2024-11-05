@@ -47,10 +47,10 @@ You can reach us 24/7 via our free service number 085 – 0026311 , you will imm
                     </ul>
                 </div>
                     </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full"
-                        src="https://i.ibb.co/mJCmMJR/loodgieter-alphen-aan-den-rijn-300x235.jpg" alt="Clogged Sewer" />
-                    </div>
+                    <div className="image-content w-full md:w-1/4 ">
+                            <img className="h-60 md:h-80 mt-20 ml-20 w-96" 
+                            src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
+                        </div>
 
                    
                 </div>

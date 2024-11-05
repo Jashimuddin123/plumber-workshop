@@ -42,7 +42,8 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <img src="https://i.ibb.co/4Y09h7L/logo-24uurloodgieter-1.png" alt="Logo" className="h-16 w-40" />
+        <img src="https://i.ibb.co/4Y09h7L/logo-24uurloodgieter-1.png" alt="Logo" 
+        className="h-16 w-56" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

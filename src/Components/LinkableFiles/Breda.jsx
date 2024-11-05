@@ -29,10 +29,10 @@ You can reach us 24/7 via our service number 085 – 0026311 , you will immediat
                         Breda Plumbers</h1>
                        <p className="text-gray-500 text-left text-xl space-y-4 my-4">We only have well-trained and experienced plumbers working in Breda . If you call us for a leak or blocked sewer or blocked pipe, this will always be resolved as soon as possible.</p>
                     </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full"
-                        src="https://i.ibb.co/mJCmMJR/loodgieter-alphen-aan-den-rijn-300x235.jpg" alt="Clogged Sewer" />
-                    </div>
+                    <div className="image-content w-full md:w-1/4 ">
+                            <img className="h-60 md:h-80 mt-20 ml-20 w-96" 
+                            src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
+                        </div>
              
                    
                 </div>
