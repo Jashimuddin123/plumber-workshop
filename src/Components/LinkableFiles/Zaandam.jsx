@@ -13,50 +13,51 @@ const Zaandam = () => {
         <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
             {/* Content div on the left */}
             <div className="flex-1 w-full md:w-2/3 pr-4">
-            <h1 className="tex-4xl text-5xl font-bold">Plumber Zoetermeer</h1>
+            <h1 className="tex-4xl text-5xl font-bold">Plumber Zaandam</h1>
             <div className="border-4 border-sky-400 w-28 my-6"></div>
-         
-                <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />
-                <button className="btn my-4 btn-info text-white rounded-full text-xl py-2 px-4">CALL URGENTLY: 085_0026311</button>
-                <h1 className="text-3xl md:text-5xl font-bold my-4 text-left">Sewer problems?</h1>
-                <p className="text-lg md:text-xl my-4 text-gray-500 text-left">Is your sewer blocked? Is the water no longer draining? Contact our 24-hour Plumber service. We are available day and night for all conceivable sewer problems.</p>
-                <img src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
+          <p className="text-gray-500 text-left text-xl space-y-8 my-4">24 hour plumber in Zaandam is available day and night for all conceivable emergencies. Do you need a plumber immediately? Then contact our plumbing company in Zaandam . We always have several employees spread throughout the region and can therefore always be on site quickly.
+
+               In addition to our 24-hour emergency plumber service, you can of course also contact us for all standard plumbing work. For example, do you want to have an extra water supply installed for a dishwasher, washing machine or do you want to have new sanitary facilities installed? You have also come to the right place for this with our plumbers in Zaandam .</p>
+            
+           
+     <h1 className="text-sky-400 font-bold text-3xl">Plumber 24 hour service Zaandam</h1>
+     <p className="text-gray-500 text-left text-xl space-y-8 my-4">Our 24 hour plumbing service is available day and night. We are available for all conceivable emergencies such as leaks, blockages or gas problems. You can reach us 24 hours a day, 7 days a week for all conceivable emergencies on telephone number 085 - 0026311 .</p>
+
 
                 <div>
-                    <h1 className="text-3xl md:text-3xl font-bold text-sky-400 text-left">Sewerage works</h1>
-                    <h1 className="text-gray-600 text-left text-lg md:text-xl">You can contact us 24/7 for:</h1>
+
+
+                    <h1 className="text-gray-400  font-bold text-left text-2xl md:text-2xl">
+                    You can reach us 24/7 for, among other things:</h1>
                     <ul className="ml-6 text-lg md:text-xl mb-8 space-y-4 text-gray-500 list-disc mt-4">
-                        <li>Unblocking drains of toilets, showers, and sinks</li>
-                        <li>Problems with draining rainwater</li>
-                        <li>Pumping out crawl spaces, cellars, and basements</li>
-                        <li>How to Fix Bubbling Drains</li>
-                        <li>Remedying sewer odor “sewer smell”</li>
-                        <li>Leakage due to leaking gutters or downpipes</li>
-                        <li>Various forms of odor nuisance from the sewer</li>
-                        <li>Construction of a completely new sewerage system</li>
+                        <li>Toilet Blockage</li>
+                        <li>Drain Blockage</li>
+                        <li>Sewer Problems</li>
+                        <li>Leakage</li>
+                        <li>Problems with central heating boiler</li>
+                        <li>CV installation problems</li>
+                        <li>Flooded basements and crawl spaces</li>
+                      
                     </ul>
                 </div>
 
                 <div className="container flex flex-col md:flex-row">
                     <div className="text-content w-full md:w-1/2">
-                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">Sewer clogged? Call the Plumber</h1>
+                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">Sewer Renovation and installation work</h1>
                         <p className="text-gray-500 text-left text-lg md:text-xl my-4">A common problem is a clogged toilet, often caused by excessive use of toilet paper...</p>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">In addition, various liquid or non-liquid drain unblockers can cause major damage to the sewer or drain...</p>
+                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">You have also come to the right place at our plumbing company in Zaandam for renovation and installation work . We can take on complete renovations of a bathroom, for example, but you can also contact us for smaller matters such as installing a new tap or having new sanitary facilities installed.
+
+               We also do home renovations , we can check the complete piping and all drains of a building for weak parts and replace them where necessary.
+
+              Would you like more information about the possibilities for you at our plumbing company? Then feel free to contact us free of charge on telephone number 085 – 0026311</p>
                     </div>
                     <div className="image-content w-full md:w-1/2">
                         <img className="h-60 md:h-96 mt-10 w-full" src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
                     </div>
                 </div>
 
-                <div>
-                    <h1 className="text-3xl font-bold text-sky-400 text-left">Drain clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">A clogged drain in the kitchen or bathroom? Then contact us on 085 – 0026311...</p>
-                    <h1 className="text-3xl my-4 font-bold text-sky-400 text-left">Unblocking the sewer by the plumber</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">How do I unclog the sewer? That is a question we hear a lot...</p>
-                    <h1 className="text-3xl font-bold my-4 text-sky-400 text-left">Plumber 24 hours sink clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">Is the sink clogged or is the water no longer draining? Call our emergency number...</p>
-                    <img className="w-full h-60 md:h-[500px]" src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
-                </div>
+                <img className="w-full"
+                 src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />
             </div>
 
             {/* Links div on the right */}

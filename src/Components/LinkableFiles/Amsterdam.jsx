@@ -13,48 +13,44 @@ const Amsterdam = () => {
         <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
             {/* Content div on the left */}
             <div className="flex-1 w-full md:w-2/3 pr-4">
-            <h1 className="tex-4xl text-5xl font-bold">Sewerage</h1>
+            <h1 className=" text-5xl font-bold my-4">Plumber Amsterdam</h1>
             <div className="border-4 border-sky-400 w-28 my-6"></div>
-                <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />
-                <button className="btn my-4 btn-info text-white rounded-full text-xl py-2 px-4">CALL URGENTLY: 085_0026311</button>
-                <h1 className="text-3xl md:text-5xl font-bold my-4 text-left">Sewer problems?</h1>
-                <p className="text-lg md:text-xl my-4 text-gray-500 text-left">Is your sewer blocked? Is the water no longer draining? Contact our 24-hour Plumber service. We are available day and night for all conceivable sewer problems.</p>
-                <img src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
+            <h1 className=" text-5xl font-bold my-4">Plumber Amsterdam 24-hour service </h1>
+             
+             <p className="text-gray-500 text-left text-xl space-y-8 my-4" >Do you live in Amsterdam and are you looking for a suitable plumber? Our plumbing service in Amsterdam is available 24 hours a day, 7 days a week. We can solve all conceivable emergencies that fall under plumbing work for you. You can think of a leak, a clogged toilet or a burst water pipe. The Plumber Amsterdam 24-hour service is happy to help you out!
 
+           You can always reach us at 085 – 0026311  for emergencies, but it is also possible that you have work that is less urgent. Perhaps you want to have your new dishwasher connected or you want to have a bathroom renovation done. For this you can easily fill in a quote with us after which we can discuss your wishes. So Loodgietersbedrijf Amsterdam is also the right place for this.
+
+               Our service number 085 – 0026311   is free for you and you can call it at any time. So also in the evening, the weekend or during the holidays. You will immediately get a professional on the line with whom you can make an appointment directly. Our plumbers and installers are also in your area, so they will be on site in no time.
+                  </p>
+                  <img src="https://i.ibb.co/JqtMK67/plumbing-840835-960-720.jpg" alt="" />
                 <div>
-                    <h1 className="text-3xl md:text-3xl font-bold text-sky-400 text-left">Sewerage works</h1>
-                    <h1 className="text-gray-600 text-left text-lg md:text-xl">You can contact us 24/7 for:</h1>
+                    <h1 className="text-3xl md:text-3xl font-bold text-sky-400 text-left">We are happy to help you!</h1>
+                    <h1 className="text-gray-600 text-left text-lg md:text-xl">
+                    You can call our service number for the following problems, among others:</h1>
                     <ul className="ml-6 text-lg md:text-xl mb-8 space-y-4 text-gray-500 list-disc mt-4">
-                        <li>Unblocking drains of toilets, showers, and sinks</li>
+                        <li>A blocked toilet</li>
+                        <li>A blocked sink</li>
+                        <li> Burst pipes</li>
+                        <li>Flooding due to leakage</li>
+                        <li>Flooded basements or crawl spaces</li>
                         <li>Problems with draining rainwater</li>
-                        <li>Pumping out crawl spaces, cellars, and basements</li>
-                        <li>How to Fix Bubbling Drains</li>
-                        <li>Remedying sewer odor “sewer smell”</li>
-                        <li>Leakage due to leaking gutters or downpipes</li>
-                        <li>Various forms of odor nuisance from the sewer</li>
-                        <li>Construction of a completely new sewerage system</li>
+                        <li>Problems with the water pipe</li>
+                        <li>Sewer problems</li>
                     </ul>
                 </div>
 
-                <div className="container flex flex-col md:flex-row">
-                    <div className="text-content w-full md:w-1/2">
-                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">Sewer clogged? Call the Plumber</h1>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">A common problem is a clogged toilet, often caused by excessive use of toilet paper...</p>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">In addition, various liquid or non-liquid drain unblockers can cause major damage to the sewer or drain...</p>
-                    </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full" src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
-                    </div>
-                </div>
+               
 
                 <div>
-                    <h1 className="text-3xl font-bold text-sky-400 text-left">Drain clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">A clogged drain in the kitchen or bathroom? Then contact us on 085 – 0026311...</p>
-                    <h1 className="text-3xl my-4 font-bold text-sky-400 text-left">Unblocking the sewer by the plumber</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">How do I unclog the sewer? That is a question we hear a lot...</p>
-                    <h1 className="text-3xl font-bold my-4 text-sky-400 text-left">Plumber 24 hours sink clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">Is the sink clogged or is the water no longer draining? Call our emergency number...</p>
-                    <img className="w-full h-60 md:h-[500px]" src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
+                   
+                    <h1 className="text-3xl font-bold my-4 text-sky-400 text-left">Real craftsmen</h1>
+                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">
+                   
+                    When you make an appointment with Loodgietersservice Amsterdam via our website or our service number 085 – 0026311,   you can expect quality. The plumbers from Amsterdam always come to you in a well-equipped service vehicle. This contains all the necessary tools for the job and also materials for any replacement. This means you do not have to worry about follow-up appointments. We strive to help you in one go. Our professionals all have a recognized diploma. In addition, they have extensive experience as all-round plumbers. So you can leave the job to our experts with peace of mind.
+                   </p>
+                    <img className="w-full h-60 md:h-[500px]" 
+                    src="https://i.ibb.co/p3c3N7c/loodgieter-amsterdam.png" alt="" />
                 </div>
             </div>
 
@@ -63,7 +59,7 @@ const Amsterdam = () => {
                     <h1 className="text-3xl font-bold text-sky-400 my-4">NEED A PLUMBER URGENTLY?</h1>
                     <img src="https://i.ibb.co/34N0q6v/links-hour-images.jpg" alt="" />
                     <button className="btn my-6 mt-6 btn-info rounded-full py-2 px-8 text-2xl text-white">CALL: 085_0026311</button>
-                    <p className="text-gray-500 text-left text-lg my-4">Need a 24-hour plumber for help with leaks, blockages, or plumbing problems? Call 085 – 0026311 for fast help!</p>
+                    <p className="text-gray-500 text-left text-xl my-6">Need a 24 hour plumber for help with leaks, blockages or plumbing problems? Call 085 – 0026311 for fast help from a professional in your area!</p>
                     <div>
                         <h1 className="my-2 text-sky-400 font-bold text-left text-3xl">Work areas</h1>
                       <Link to="/alphen"><p className="text-lg text-left text-gray-500">Plumber Alphen aan den Rijn</p></Link>
