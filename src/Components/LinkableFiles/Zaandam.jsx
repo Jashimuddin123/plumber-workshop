@@ -13,8 +13,9 @@ const Zaandam = () => {
         <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
             {/* Content div on the left */}
             <div className="flex-1 w-full md:w-2/3 pr-4">
-            <h1 className="tex-4xl text-5xl font-bold">Sewerage</h1>
+            <h1 className="tex-4xl text-5xl font-bold">Plumber Zoetermeer</h1>
             <div className="border-4 border-sky-400 w-28 my-6"></div>
+         
                 <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />
                 <button className="btn my-4 btn-info text-white rounded-full text-xl py-2 px-4">CALL URGENTLY: 085_0026311</button>
                 <h1 className="text-3xl md:text-5xl font-bold my-4 text-left">Sewer problems?</h1>
