@@ -13,9 +13,13 @@ const Footer = () => {
             <nav>
                 <h6 className="footer-title text-2xl text-white">Services</h6>
                  <Link to="/plumber">  <a className="link link-hover textxl text-xl">Plumber Emergency</a></Link>
+                 <div className="border w-full"></div>
                 <Link to="/renovationWorker" ><a className="link link-hover text-xl">Renovation Worker</a></Link>
+                <div className="border w-full"></div>
                 <Link to="/sewerage" ><a className="link link-hover text-xl">Sewerage</a></Link>
+                <div className="border w-full"></div>
                <Link to="/worksArea"><a className="link link-hover text-xl">Works Area</a></Link>
+               <div className="border w-full"></div>
                 <Link to="/contact"><a className="link link-hover text-xl">Contact</a></Link>
             </nav>
             <nav>
