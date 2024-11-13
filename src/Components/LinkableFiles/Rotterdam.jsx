@@ -10,19 +10,19 @@ const Rotterdam = () => {
         </div>
 
         {/* Main content section */}
-        <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
+        <div className="flex flex-col lg:flex-row gap-4 px-4 md:px-8 lg:px-12">
             {/* Content div on the left */}
-            <div className="flex-1 w-full md:w-2/3 pr-4">
-            <h1 className="tex-4xl text-5xl font-bold">Sewerage</h1>
+            <div className="w-full lg:w-2/3 shadow-lg p-4">
+            <h1 className="tex-4xl text-5xl font-bold">Plumber Rotterdam</h1>
             <div className="border-4 border-sky-400 w-28 my-6"></div>
-                <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />
-                <button className="btn my-4 btn-info text-white rounded-full text-xl py-2 px-4">CALL URGENTLY: 085_0026311</button>
-                <h1 className="text-3xl md:text-5xl font-bold my-4 text-left">Sewer problems?</h1>
-                <p className="text-lg md:text-xl my-4 text-gray-500 text-left">Is your sewer blocked? Is the water no longer draining? Contact our 24-hour Plumber service. We are available day and night for all conceivable sewer problems.</p>
-                <img src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
+            <h1 className=" my-2 text-4xl font-bold">Plumber Rotterdam 24 hour service</h1>
+            
+              <p className="text-gray-500 text-left text-lg md:text-xl my-4">It can happen to you: a leak or a blockage in your home. This can be very annoying, and with serious problems it is not possible to use household items. Plumber Rotterdam 24-hour service is happy to help you. Our experts work with professional tools and materials so that the problem is solved quickly. Do not wait too long and call our free service number 085 - 0026311
+
+               You can contact us day and night for the following emergencies:</p>
 
                 <div>
-                    <h1 className="text-3xl md:text-3xl font-bold text-sky-400 text-left">Sewerage works</h1>
+                
                     <h1 className="text-gray-600 text-left text-lg md:text-xl">You can contact us 24/7 for:</h1>
                     <ul className="ml-6 text-lg md:text-xl mb-8 space-y-4 text-gray-500 list-disc mt-4">
                         <li>Unblocking drains of toilets, showers, and sinks</li>
@@ -34,27 +34,28 @@ const Rotterdam = () => {
                         <li>Various forms of odor nuisance from the sewer</li>
                         <li>Construction of a completely new sewerage system</li>
                     </ul>
+
+
+                    <img src="https://i.ibb.co/M2F9dS6/plumbing-840835-960-720-1.jpg" alt="" />
                 </div>
 
-                <div className="container flex flex-col md:flex-row">
-                    <div className="text-content w-full md:w-1/2">
-                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">Sewer clogged? Call the Plumber</h1>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">A common problem is a clogged toilet, often caused by excessive use of toilet paper...</p>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">In addition, various liquid or non-liquid drain unblockers can cause major damage to the sewer or drain...</p>
-                    </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full" src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
-                    </div>
-                </div>
+
+
+             
 
                 <div>
-                    <h1 className="text-3xl font-bold text-sky-400 text-left">Drain clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">A clogged drain in the kitchen or bathroom? Then contact us on 085 – 0026311...</p>
-                    <h1 className="text-3xl my-4 font-bold text-sky-400 text-left">Unblocking the sewer by the plumber</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">How do I unclog the sewer? That is a question we hear a lot...</p>
-                    <h1 className="text-3xl font-bold my-4 text-sky-400 text-left">Plumber 24 hours sink clogged</h1>
-                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">Is the sink clogged or is the water no longer draining? Call our emergency number...</p>
-                    <img className="w-full h-60 md:h-[500px]" src="https://i.ibb.co/bsvFvkt/waterpipe-lig.jpg" alt="" />
+                    <h1 className="text-2xl font-bold text-sky-400 text-left">Not just emergencies</h1>
+                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">
+                    We are happy to help you with urgent plumbing work, but it doesn't stop there. Our all-round plumbers can also be deployed for jobs that are less urgent. Think of installing a new tap or installing a washing machine. Nothing is too crazy for our experts in Rotterdam. We carry out all conceivable  installation and maintenance  work on pipes, central heating boilers, sewerage, etc. Feel free to contact us to discuss the possibilities.</p>
+                    <h1 className="text-2xl my-4 font-bold text-sky-400 text-left">
+                    Experts in Rotterdam</h1>
+                    <p className="text-left text-lg md:text-xl my-4 text-gray-500">
+                    Our professionals are spread across the Netherlands and also near you in Rotterdam. You can therefore trust that you will be helped quickly after a phone call. When you call, you will immediately get an expert on the line with whom you can make an appointment. Our plumbers will then be on site quickly to help you. They always come in a well-stocked service vehicle with professional tools and materials for the job. Our plumbers from Loodgietersservice Rotterdam have a lot of experience and are in possession of a recognized diploma. You can therefore expect quality.
+
+                   You can call our service number 085 – 0026311  at any time. In the middle of the night, when you notice a leak, or during holidays and evenings.</p>
+                   
+                    <img className="w-full h-60 md:h-[500px]" 
+                    src="https://i.ibb.co/KjJSHH2/loodgieter-amsterdam.png" alt="" />
                 </div>
             </div>
 

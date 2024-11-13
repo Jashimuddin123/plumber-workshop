@@ -9,11 +9,11 @@ const Plumber = () => {
             </div>
 
             {/* Main content section */}
-            <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:flex-row gap-6">
                 {/* Content div on the left */}
-                <div className="flex-2 w-full lg:w-2/3 shadow-2xl ml-4 lg:ml-12 px-4 lg:px-6">
+                <div className="w-full lg:w-2/3 shadow-2xl px-4 lg:px-6">
                     <h1 className="text-4xl font-bold text-left my-8">Plumber Emergency</h1>
-                    <div className="border-4 border-sky-400 w-28 my-8"></div>
+                    <div className="border-2 border-sky-400 w-28 my-8"></div>
                     <img src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" className="w-full" />
                     <button className="btn mx-auto my-3 btn-info text-white rounded-full text-xl py-2 px-4">CALL URGENTLY: 085_0026311</button>
                     <h1 className="text-4xl font-bold text-left my-3">Plumber Emergency Service Needed?</h1>

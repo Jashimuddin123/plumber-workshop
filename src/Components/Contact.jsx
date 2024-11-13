@@ -12,8 +12,8 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row">
                 {/* Content div on the left */}
                 <div className="flex-1 md:w-2/3 pr-4 shadow-xl mx-4 md:mx-12 px-6">
-                    <h1 className="text-5xl font-bold my-4">Contact Us</h1>
-                    <div className="border-4 border-sky-400 w-28 my-8"></div>
+                    <h1 className="text-4xl font-bold my-4">Contact Us</h1>
+                    <div className="border-2 border-sky-400 w-28 my-8"></div>
                     <p className="text-gray-500 text-xl my-4">
                         The plumbers behind 24uurloodgieter.nl are available 24/7. Of course, we only work with certified professionals, so if you hire a plumber through our plumbing service, you can always be 100% sure that you will get a real professional in your home! You can contact our free central emergency number via: 085 – 0026311.
                     </p>

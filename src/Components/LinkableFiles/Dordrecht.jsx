@@ -10,9 +10,9 @@ const Dordrecht = () => {
         </div>
 
         {/* Main content section */}
-        <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
+        <div className="flex flex-col lg:flex-row gap-4 px-4 md:px-8 lg:px-12">
             {/* Content div on the left */}
-            <div className="flex-1 w-full md:w-2/3 pr-4">
+            <div className="w-full lg:w-2/3 shadow-lg p-4">
             <h1 className="text-5xl font-bold">Plumber Dordrecht</h1>
             <div className="border-4 border-sky-400 w-28 my-10"></div>
                <p className="text-gray-500 text-left text-xl space-y-8 my-4">Plumber Dordrecht 24 hour service : Are you looking for a plumber in Dordrecht? Our professionals are available day and night, 7 days a week for all conceivable emergencies. Is your toilet clogged? Is the kitchen flooded by a burst water pipe? Or is your basement or crawl space flooded by a heavy rain shower? Don't panic and contact the Plumber Dordrecht 24 hour service.
@@ -26,7 +26,7 @@ const Dordrecht = () => {
      
             
 
-                <div className="container flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row my-8">
                     <div className="text-content w-full md:w-1/2">
                         <h1 className="text-3xl font-bold text-sky-400 text-left my-4">
                         Plumber Dordrecht</h1>
@@ -47,23 +47,23 @@ const Dordrecht = () => {
                     </ul>
                 </div>
                     </div>
-                    <div className="image-content w-full md:w-1/4 ">
+                    <div className="w-full md:w-1/3 mt-6 md:mt-0 md:ml-8 flex justify-center">
                             <img className="h-60 md:h-80 mt-20 ml-20 w-96" 
                             src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
                         </div>
 
                    
                 </div>
-                    <h1 className="text-3xl font-bold text-sky-500 my-6">
+                    <h1 className="text-2xl font-bold text-sky-500 my-6">
                     Plumber Dordrecht Weekend</h1>
-                    <p className="text-gray-500 text-left text-xl space-y-8 my-4">Our plumbing company is also available on Saturdays and Sundays, 24 hours a day, 7 days a week we are ready for you. Every service technician has a well-equipped service car, in this way all problems can be solved quickly, professionally and expertly.
-                    So are you looking for a plumber in the middle of the night? Or are you looking for a plumber on Saturday evening? No problem! You have come to the right place. Contact us by phone at 085 - 0026311 and get in touch with an employee of our plumbing company directly..</p>
+                    <p className="text-gray-500 text-left text-xl space-y-8 my-4">Our plumbing company in Den Bosch is also available on Saturdays and Sundays, 24 hours a day, 7 days a week we are ready for you. Every service technician has a well-equipped service car, in this way all problems can be solved quickly, professionally and expertly.
+                    So are you looking for a plumber in the middle of the night? Or are you looking for a plumber on Saturday evening? No problem! You have come to the right place. Contact us by phone at 085 - 0026311 and get in touch with an employee of our plumbing company directly.</p>
 
-                   <h1 className=" text-3xl font-bold text-sky-500 mt-10">
+                   <h1 className=" text-2xl font-bold text-sky-500 mt-10">
                    Clogged toilet in Dordrecht</h1>
-             <p className="text-gray-500 text-left text-xl space-y-4 my-4">Toilet clogged? Or is there a blockage in the drain or sewer? Then make an appointment with one of our plumbers in Dordrecht, we will come to you as soon as possible to solve the problem. We have tools for all blockages with us and ensure that your toilet or sewer is unclogged.
+                   <p className="text-gray-500 text-left text-xl space-y-4 my-4">Toilet clogged? Or is  there a blockage in the drain or sewer? Then make an appointment with one of our plumbers, we will come to you as soon as possible to solve the problem. We have tools for all blockages with us and ensure that your toilet or sewer is unclogged.
 
-              Call our service number 085 – 0026311 24/7 and get in direct contact with the plumber in Dordrecht .</p>
+                 Call our service number 085 – 0026311 24/7  and get in direct contact with the plumber in Den Bosch .</p>
               
             </div>
             {/* Links div on the right */}

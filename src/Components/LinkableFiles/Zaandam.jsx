@@ -10,24 +10,24 @@ const Zaandam = () => {
         </div>
 
         {/* Main content section */}
-        <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
+        <div className="flex flex-col lg:flex-row gap-4 px-4 md:px-8 lg:px-12">
             {/* Content div on the left */}
-            <div className="flex-1 w-full md:w-2/3 pr-4">
-            <h1 className="tex-4xl text-5xl font-bold">Plumber Zaandam</h1>
+            <div className="w-full lg:w-2/3 shadow-lg p-4">
+            <h1 className="tex-4xl text-4xl font-bold">Plumber Zaandam</h1>
             <div className="border-4 border-sky-400 w-28 my-6"></div>
           <p className="text-gray-500 text-left text-xl space-y-8 my-4">24 hour plumber in Zaandam is available day and night for all conceivable emergencies. Do you need a plumber immediately? Then contact our plumbing company in Zaandam . We always have several employees spread throughout the region and can therefore always be on site quickly.
 
                In addition to our 24-hour emergency plumber service, you can of course also contact us for all standard plumbing work. For example, do you want to have an extra water supply installed for a dishwasher, washing machine or do you want to have new sanitary facilities installed? You have also come to the right place for this with our plumbers in Zaandam .</p>
             
            
-     <h1 className="text-sky-400 font-bold text-3xl">Plumber 24 hour service Zaandam</h1>
-     <p className="text-gray-500 text-left text-xl space-y-8 my-4">Our 24 hour plumbing service is available day and night. We are available for all conceivable emergencies such as leaks, blockages or gas problems. You can reach us 24 hours a day, 7 days a week for all conceivable emergencies on telephone number 085 - 0026311 .</p>
+     <h1 className="text-sky-400 font-bold text-2xl">Plumber 24 hour service Zaandam</h1>
+     <p className="text-gray-500 text-left text-lg space-y-2 my-4">Our 24 hour plumbing service is available day and night. We are available for all conceivable emergencies such as leaks, blockages or gas problems. You can reach us 24 hours a day, 7 days a week for all conceivable emergencies on telephone number 085 - 0026311 .</p>
 
 
                 <div>
 
 
-                    <h1 className="text-gray-400  font-bold text-left text-2xl md:text-2xl">
+                    <h1 className="text-gray-500 font-bold  text-left text-xl md:text-xl">
                     You can reach us 24/7 for, among other things:</h1>
                     <ul className="ml-6 text-lg md:text-xl mb-8 space-y-4 text-gray-500 list-disc mt-4">
                         <li>Toilet Blockage</li>
@@ -41,20 +41,25 @@ const Zaandam = () => {
                     </ul>
                 </div>
 
-                <div className="container flex flex-col md:flex-row">
-                    <div className="text-content w-full md:w-1/2">
-                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">Sewer Renovation and installation work</h1>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">A common problem is a clogged toilet, often caused by excessive use of toilet paper...</p>
-                        <p className="text-gray-500 text-left text-lg md:text-xl my-4">You have also come to the right place at our plumbing company in Zaandam for renovation and installation work . We can take on complete renovations of a bathroom, for example, but you can also contact us for smaller matters such as installing a new tap or having new sanitary facilities installed.
+                <div className="flex flex-col md:flex-row my-4">
+                        <div className="w-full md:w-2/3">
+                            <h2 
+                            className="text-xl md:text-2xl font-bold text-sky-400 my-4">
+                                Renovation and installation work</h2>
+                            <p className="text-gray-500 text-lg md:text-xl my-4">
+                            You have also come to the right place at our plumbing company in Zaandam for renovation and installation work . We can take on complete renovations of a bathroom, for example, but you can also contact us for smaller matters such as installing a new tap or having new sanitary facilities installed.
 
-               We also do home renovations , we can check the complete piping and all drains of a building for weak parts and replace them where necessary.
+We also do home renovations , we can check the complete piping and all drains of a building for weak parts and replace them where necessary.
 
-              Would you like more information about the possibilities for you at our plumbing company? Then feel free to contact us free of charge on telephone number 085 – 0026311</p>
+Would you like more information about the possibilities for you at our plumbing company? Then feel free to contact us free of charge on telephone number 085 – 0026311
+                            </p>
+                  
+                        </div>
+                        <div className="w-full md:w-1/3 mt-6 md:mt-0 md:ml-8 flex justify-center">
+                            <img className="h-32 md:h-28 mt-14 w-auto" src=
+                            "https://i.ibb.co/HY1pn4h/renovatie-box-150x100.jpg" alt="Clogged Sewer" />
+                        </div>
                     </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full" src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
-                    </div>
-                </div>
 
                 <img className="w-full"
                  src="https://i.ibb.co/SRfvZXn/24uurloodgieter-baner-slide1.jpg" alt="" />

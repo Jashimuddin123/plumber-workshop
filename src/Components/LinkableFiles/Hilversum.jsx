@@ -10,9 +10,9 @@ const Hilversum = () => {
         </div>
 
         {/* Main content section */}
-        <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
+        <div className="flex flex-col lg:flex-row gap-4 px-4 md:px-8 lg:px-12">
             {/* Content div on the left */}
-            <div className="flex-1 w-full md:w-2/3 pr-4">
+            <div className="w-full lg:w-2/3 shadow-lg p-4">
             <h1 className="text-5xl font-bold">Plumber Hilversum</h1>
             <div className="border-4 border-sky-400 w-28 my-10"></div>
                <p className="text-gray-500 text-left text-xl space-y-8 my-4">Plumber Hilversum 24 hour service : Are you looking for a plumber in Hilversum? Our professionals are available day and night, 7 days a week for all conceivable emergencies. Is your toilet clogged? Is the kitchen flooded by a burst water pipe? Or is your basement or crawl space flooded by a heavy rain shower? Don't panic and contact the Plumber Hilversum 24 hour service.
@@ -22,7 +22,7 @@ const Hilversum = () => {
                  You can reach us 24/7 via our free service number 085 – 0026311 , you will immediately get a professional on the line to make an appointment. Because our service engineers are spread throughout the region, we can almost always be on site very quickly.
 
            </p>
-                <div className="container flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row my-8">
                     <div className="text-content w-full md:w-1/2">
                         <h1 className="text-3xl font-bold text-sky-400 text-left my-4">
                         Hilversum Plumbers</h1>
@@ -43,7 +43,7 @@ const Hilversum = () => {
                     </ul>
                 </div>
                     </div>
-                    <div className="image-content w-full md:w-1/4 ">
+                    <div className="w-full md:w-1/3 mt-6 md:mt-0 md:ml-8 flex justify-center">
                             <img className="h-60 md:h-80 mt-20 ml-20 w-96" 
                             src="https://i.ibb.co/tYPYh1r/24-loodgieter-181x300.jpg" alt="Clogged Sewer" />
                         </div>

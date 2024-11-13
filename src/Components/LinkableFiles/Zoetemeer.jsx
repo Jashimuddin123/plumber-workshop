@@ -10,9 +10,9 @@ const Zoetemeer = () => {
         </div>
 
         {/* Main content section */}
-        <div className="flex flex-col md:flex-row shadow-2xl ml-12 px-6">
+        <div className="flex flex-col lg:flex-row gap-4 px-4 md:px-8 lg:px-12">
             {/* Content div on the left */}
-            <div className="flex-1 w-full md:w-2/3 pr-4">
+            <div  className="w-full lg:w-2/3 shadow-lg p-4">
             <h1 className="text-5xl font-bold">Plumber Zoetermeer</h1>
             <div className="border-4 border-sky-400 w-28 my-10"></div>
             <h1 className="text-2xl text-sky-400 font-bold my-6">Plumber Zoetermeer</h1>
@@ -27,12 +27,12 @@ Make an appointment with the plumber in Zoetermeer right away? Or do you want to
 
              <div className="container flex flex-col md:flex-row">
                     <div className="text-content w-full md:w-1/2">
-                        <h1 className="text-3xl font-bold text-sky-400 text-left my-4">
+                        <h1 className="text-2xl font-bold text-sky-400 text-left my-4">
                         24 hour Plumber in Zoetermeer</h1>
                        <p className="text-gray-500 text-left text-xl space-y-4 my-4">The 24 hour Plumber in Zoetermeer is available for you day and night. We are available for all conceivable emergencies such as leaks, blockages or gas problems. You can reach us 24 hours a day, 7 days a week for all conceivable emergencies on telephone number 085 - 0026311 .</p>
                        <div>
-                    <h1 className="text-gray-500 font-bold text-left text-2xl my-6 md:text-2xl">
-                    You can reach us 24/7 for, among other things::</h1>
+                    <h1 className="text-gray-500 font-bold text-left text-xl my-6 md:text-xl">
+                    You can reach us 24/7 for, things:</h1>
                     <ul className="ml-6 text-lg md:text-xl mb-8 space-y-4 text-gray-500 list-disc mt-4">
                         <li>Toilet Blockage</li>
                         <li>Drain Blockage</li>
@@ -47,14 +47,14 @@ Make an appointment with the plumber in Zoetermeer right away? Or do you want to
                     </ul>
                 </div>
                     </div>
-                    <div className="image-content w-full md:w-1/2">
-                        <img className="h-60 md:h-96 mt-10 w-full"
+                    <div className="image-content lg:ml-20 w-full md:w-1/4">
+                        <img className="h-60 md:h-36 mt-10 w-full"
                         src="https://i.ibb.co/mJCmMJR/loodgieter-alphen-aan-den-rijn-300x235.jpg" alt="Clogged Sewer" />
                     </div>
 
                    
                 </div>
-                    <h1 className="text-3xl font-bold text-sky-500 my-6">
+                    <h1 className="text-2xl font-bold text-sky-500 my-6">
                     Immediate assistance in case of leakage</h1>
                     <p className="text-gray-500 text-left text-xl space-y-8 my-4">There is perhaps nothing more annoying than a leak in your own home, besides being difficult and involving a lot of work, a leak often also causes serious damage to walls, floors and partitions. This is also why it is very important to act quickly in case of a leak.
 
